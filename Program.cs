@@ -3,6 +3,25 @@
 // void и многих других)
 // Copyright (c) 2024 W1thluv. All Rights Reserved.
 
+/*
+ *  ACTUALLY LANG GRAMMAR:
+ *
+ *      expression      → literal
+ *                      | unary
+ *                      | binary
+ *                      | grouping ;
+ *
+ *      literal         → NUMBER | STRING | "true" | "false" | "nil" ;
+ *      grouping        → "(" expression ")" ;
+ *      unary           → ( "-" | "!" ) expression ;
+ *      binary          → expression operator expression ;
+ *      operator        → "==" | "!=" | "<" | "<=" | ">" | ">="
+ *                      | "+"  | "-"  | "*" | "/" ;
+ *
+ *
+ *  I guess this should not be there.
+ */
+
 using Eblangc;
 
 if (args.Length > 1) {

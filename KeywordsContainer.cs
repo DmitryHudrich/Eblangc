@@ -19,5 +19,4 @@ internal static class KeywordsContainer {
         { "var", TokenType.VAR },
         { "while", TokenType.WHILE }
     };
-
 }
