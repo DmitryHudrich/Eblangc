@@ -75,3 +75,4 @@ internal static class ErrorHandler {
         HadError = true;
     }
 }
+
